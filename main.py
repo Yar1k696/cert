@@ -6,7 +6,7 @@ import os
 
 # Сертифікат живе 15 днив
 # Перевірка на термін дії серттфікату
-# 123
+# 12334
 def certificate(file: str):
     if not os.path.exists(file):
         raise FileNotFoundError('Файл не знайдено')
